@@ -7,6 +7,8 @@ const dbConnectFunction =require("./config/db");
 
 const authRoute = require("./routes/authRoute");
 
+
+
 const app =  express();
 
 app.use(cors()); /*  is used to allow your frontend and backend to communicate when they run ondifferent origins (ports/domains).*/
